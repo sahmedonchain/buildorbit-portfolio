@@ -139,7 +139,7 @@ function FlowNode({
   active = false,
 }: {
   label: string;
-  icon: React.ElementType;
+    icon: React.ComponentType<{ className?: string }>;
   active?: boolean;
 }) {
   return (
