@@ -246,7 +246,7 @@ export default function Home() {
 
           <p className="mt-7 max-w-2xl text-base leading-8 text-zinc-400 sm:text-lg">
             AI automation, customer-support systems, SaaS, Web3, and fintech
-            products—designed around real workflows, tested with intention, and
+            products - designed around real workflows, tested with intention, and
             built to move forward.
           </p>
 
@@ -560,7 +560,7 @@ export default function Home() {
 
             <p className="mt-6">
               I use AI to accelerate research, development, documentation, and
-              testing—but I stay responsible for the architecture, product
+              testing - but I stay responsible for the architecture, product
               decisions, workflows, quality, and delivery.
             </p>
           </div>
