@@ -4,6 +4,7 @@ import dynamic from "next/dynamic";
 import { motion } from "motion/react";
 import {
   ArrowUpRight,
+  Bell,
   Bot,
   Check,
   Code2,
@@ -61,15 +62,15 @@ const products = [
     tags: ["Miden", "Privacy", "Payroll"],
   },
   {
-    name: "FXBotProAI",
-    category: "Fintech Product",
+    name: "Memecoin Signal Pro",
+    category: "Telegram Signal Bot",
     description:
-      "A fintech account-management website and trading-related product interface.",
-    status: "Private build",
-    href: "https://fxbotproai.vercel.app/",
-    icon: Wallet,
+      "A Telegram-based memecoin signal bot designed to monitor selected market data and deliver automated alerts.",
+    status: "Currently offline",
+    href: "https://t.me/memecoinsignalprobot",
+    icon: Bell,
     color: "from-amber-500/20 to-orange-500/10",
-    tags: ["Fintech", "Dashboard", "Trading"],
+    tags: ["Telegram", "Signals", "Alerts"],
   },
 ];
 
@@ -139,7 +140,7 @@ function FlowNode({
   active = false,
 }: {
   label: string;
-    icon: React.ComponentType<{ className?: string }>;
+  icon: React.ComponentType<{ className?: string }>;
   active?: boolean;
 }) {
   return (
